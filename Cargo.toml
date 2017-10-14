@@ -1,15 +1,14 @@
 [package]
-name = "fantoccini"
+name = "fantoccini-stable"
 version = "0.7.2"
 
 description = "High-level API for programmatically interacting with web pages through WebDriver."
 readme = "README.md"
 
-authors = ["Jon Gjengset <jon@thesquareplanet.com>"]
+authors = ["Jon Gjengset <jon@thesquareplanet.com>", "Robert Lord <hello@lord.io>"]
 
-documentation = "https://docs.rs/fantoccini"
-homepage = "https://github.com/jonhoo/fantoccini"
-repository = "https://github.com/jonhoo/fantoccini.git"
+documentation = "https://docs.rs/fantoccini-stable"
+repository = "https://github.com/lord/fantoccini-stable"
 
 keywords = ["webdriver", "chromedriver", "geckodriver", "phantomjs", "automation"]
 categories = ["api-bindings", "development-tools::testing", "web-programming::http-client"]

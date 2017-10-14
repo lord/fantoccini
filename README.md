@@ -1,4 +1,4 @@
-# fantoccini
+# fantoccini-stable
 
 [![Crates.io](https://img.shields.io/crates/v/fantoccini.svg)](https://crates.io/crates/fantoccini)
 [![Documentation](https://docs.rs/fantoccini/badge.svg)](https://docs.rs/fantoccini/)
@@ -6,10 +6,11 @@
 
 A high-level API for programmatically interacting with web pages through WebDriver.
 
+This is a temporary fork of the original [fantoccini](https://github.com/jonhoo/fantoccini) with all `impl Future`s replaced with `Box<Future<>>`s so that it compiles in Rust stable. Once [`conservative_impl_trait`](https://github.com/rust-lang/rust/issues/34511) lands in stable, I'll stop maintaining/updating this fork.
+
 This crate uses the [WebDriver protocol] to drive a conforming (potentially headless) browser
 through relatively high-level operations such as "click this element", "submit this form", etc.
-It is currently nightly-only, but this will change once
-[`conservative_impl_trait`](https://github.com/rust-lang/rust/issues/34511) lands in stable.
+~~It is currently nightly-only, but this will change once [`conservative_impl_trait`](https://github.com/rust-lang/rust/issues/34511) lands in stable.~~
 
 Most interactions are driven by using [CSS selectors]. With most WebDriver-compatible browser
 being fairly recent, the more expressive levels of the CSS standard are also supported, giving
