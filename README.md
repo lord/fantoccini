@@ -1,6 +1,6 @@
 # fantoccini-stable
 
-[![Crates.io](https://img.shields.io/crates/v/fantoccini.svg)](https://crates.io/crates/fantoccini)
+[![Crates.io](https://img.shields.io/crates/v/fantoccini-stable.svg)](https://crates.io/crates/fantoccini-stable)
 [![Documentation](https://docs.rs/fantoccini-stable/badge.svg)](https://docs.rs/fantoccini-stable/)
 
 A high-level API for programmatically interacting with web pages through WebDriver.
