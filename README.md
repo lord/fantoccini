@@ -6,7 +6,7 @@
 
 A high-level API for programmatically interacting with web pages through WebDriver.
 
-This is a temporary fork of the original [fantoccini](https://github.com/jonhoo/fantoccini) with all `impl Future`s replaced with `Box<Future<>>`s so that it compiles in Rust stable. Once [`conservative_impl_trait`](https://github.com/rust-lang/rust/issues/34511) lands in stable, I'll stop maintaining/updating this fork.
+**This is a temporary fork of the original [fantoccini](https://github.com/jonhoo/fantoccini) with all `impl Future`s replaced with `Box<Future<>>`s so that it compiles in Rust stable. Once [`conservative_impl_trait`](https://github.com/rust-lang/rust/issues/34511) lands in stable, I'll stop maintaining/updating this fork.**
 
 This crate uses the [WebDriver protocol] to drive a conforming (potentially headless) browser
 through relatively high-level operations such as "click this element", "submit this form", etc.
